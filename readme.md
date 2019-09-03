@@ -1,42 +1,18 @@
-# Python Benchmark
------
-The programs contained in this repository are examples of sufficient mastery of the fundamentals of programming in python.
+# Donut Shop
 
-### Assessment
-Students will have 1/2 Day (two blocks, or about 3 hours) to create an application like this by October 23rd.\
-This task should be done with limited access to notes and resources.\
-First Assessment: Week of September 16th\
-Second Assessment: Week of September 30th\
-Third Assessment: Week of October 14th
+### Goal
+Make a terminal based donut shop in python that allows users to make decision on the donut of their choice.\
+**app.py is an example application of this assignment being successfully completed**
 
-### Expected Breakdown of Time and workflow
-20 minutes of understanding the problem and planning\
-30 minutes to open file content into the appropriate data collection\
-20 minutes of iterating through the collection and displaying to user to make selections\
-30 minutes to create inputs and decision branches\
-15 minutes to implement basic calculations\
-15 minutes to save the output file in the correct format\
-20 minutes of research and searching for answers (dispersed throughout)\
-30 minutes of general debugging (dispersed throughout)\
+### Requirements
+* Reads donut options (icing flavors, toppings, etc.) from a json file.
+* Allows user to choose the options for their donuts, AND allow for the user can opt into a random generated donut.
+* User inputs how much they are paying in cash in correct money format.
+* Record transactions to a file with the order summary.
+* Apply appropriate input validation to ensure the application doesn't break.
+* Use good python formatting.
 
-### Grocery Store Check-out
-Terminal based application to simulate a grocery store.\
-**Has sample solution**\
-Skills used:
-* file input/output
-* handling data types
-* dictionary collections
-* string methods
-* for and while iterations
-* user input/output
-* function extraction
-* list collections
-* basic calculations
-
-### Donut Shop Order Form
-Terminal based application for ordering donuts.\
-**Has sample solution**\
-Skills used:
+### Skills Used
 * importing modules
 * file input/output
 * json -> dictionaries
@@ -45,30 +21,3 @@ Skills used:
 * branching
 * basic calculations
 * list collections
-
-### Movie Theater Ticket Order
-Terminal based application for buying movie tickets.\
-Skills Used:
-* file input/output
-* json -> dictionaries
-* user input/output
-* input validation
-* branching
-* basic calculations
-* list collections
-* string formatting and methods
-* iterating through multiple collections
-* converting appropriate data types
-
-### Dog Store Program
-Terminal based application to buy dog treats and toys.\
-Skills Used:
-* file input/output
-* converting types
-* data collections
-* for and while iterations
-* user input/output
-* string formatting and methods
-* basic calculations
-* branching
-* importing modules
