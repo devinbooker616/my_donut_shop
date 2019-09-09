@@ -32,13 +32,10 @@ def save_transaction(name, topping, flavor, cash, change):
 def main():
     #Tuple assigning this allows us to easily pull dictionary items from the json file
     toppings, flavors = load(DONUTS_FILE)
-    print(f"Hello! Welcome to the Donut Shop!")
-    print(" ")
-    print(f"    All donuts are 75c, cash only.")
-    print(" ")
-    print(f"    Choose your topping and flavor! Or get a random flavor!")
-    print("                                       ")
-    print("Can we get a name for this order? ")
+    print("""Hello! Welcome to the Donut Shop!
+    \tAll donuts are 75c, cash only.")
+    \tChoose your topping and flavor! Or get a random flavor!")
+    \nCan we get a name for this order?""")
     name = input(">>> ")
     print(f"Welcome {name}! We are happy to assist you today!")
     print("[1] custom make your donut? or [2] have a random combination?")
